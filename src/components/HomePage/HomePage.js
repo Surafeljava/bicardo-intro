@@ -1,8 +1,8 @@
 import React, {useState, useEffect, useRef} from 'react';
-import {Grid, IconButton, Button, Typography} from '@mui/material';
+import {Grid, IconButton, /*Button,*/ Typography} from '@mui/material';
 
-import { useSelector, useDispatch} from 'react-redux';
-import { Increment, Decrement } from '../../actions/countActions';
+import { /*useSelector,*/ useDispatch} from 'react-redux';
+// import { Increment, Decrement } from '../../actions/countActions';
 import { FetchTodos } from '../../actions/todoActions';
 
 // import { makeStyles } from '@mui/material'; 
@@ -47,8 +47,8 @@ function HomePage() {
 
     window.addEventListener('resize', onWidthChange);
 
-    const counter = useSelector(state => state.counter);
-    const todo = useSelector(state => state.todo);
+    // const counter = useSelector(state => state.counter);
+    // const todo = useSelector(state => state.todo);
     const dispatch = useDispatch();
 
     
