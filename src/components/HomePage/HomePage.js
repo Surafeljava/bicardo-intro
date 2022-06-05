@@ -78,7 +78,8 @@ function HomePage() {
     }, [dispatch]);
 
     return (
-        <Grid container direction='column' alignItems='center' justifyContent='space-between' width='100%' height='100vh' style={{background: 'linear-gradient(45deg, #FE6B8BAA 20%, #FF8E53AA 80%)'}}>
+        <Grid container direction='column' alignItems='center' justifyContent='space-between' width='100%' height='100vh' 
+        style={{background: 'linear-gradient(45deg, #FE6B8B99 20%, #FF8E5399 80%)'}}>
             <Grid container justifyContent='center' marginTop={1}>
                 <Typography color='secondary' style={{fontSize: 25, fontWeight: 300, letterSpacing: 3}}> Coming Soon! </Typography>
             </Grid>
@@ -92,7 +93,7 @@ function HomePage() {
                         </div>
                     </MyComponent>
                 </Grid>
-                <Grid container direction='row' alignItems='center'>
+                {/* <Grid container direction='row' alignItems='center'>
                     <h3> {counter} </h3>
                     &nbsp;&nbsp;&nbsp;
                     <Grid item>
@@ -118,7 +119,7 @@ function HomePage() {
                         <h3> {todo.id} </h3>
                         <h5> {todo.text} </h5>
                     </Grid>
-                )}
+                )} */}
             </Grid>
             <Grid container justifyContent='space-evenly' marginBottom={1}>
                 <IconButton>
