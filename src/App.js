@@ -8,7 +8,7 @@ import SignupPage from './components/SignupPage/SignupPage';
 
 function App() {
   return (
-    <div className='flex flex-col w-full min-h-screen bg-primary-1'>
+    <div className='flex flex-col w-full min-h-screen bg-primary'>
       <Routes>          
         <Route path="/" element={<HomePage />} />
         <Route path="/signup" element={<SignupPage />} />
